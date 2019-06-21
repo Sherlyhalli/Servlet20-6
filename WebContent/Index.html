@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="pink">
+<h1 align="center">Add New Employee</h1>
+<form action="ServletInsert" method="post">
+<table >
+<tr><td>Id:</td><td><input type="text" name="id" placeholder="Type id here"></td></tr>
+<tr><td>Name:</td><td><input type="text" name="name" placeholder="Type name here"></td></tr>
+<tr><td>Password:</td><td><input type="password" name="pass" placeholder="Type password here"></td></tr>
+<tr><td>Email:</td><td><input type="email" name="email" placeholder="Type Email here"></td></tr>
+<tr><td>Country:</td><td>
+<select name="country" style="width: 150px	">
+<option>----Select----</option>
+<option>India</option>
+<option>USA</option>
+<option>UK</option>
+<option>Germany</option>
+<option>Others</option>
+</select></td></tr>
+<tr><td colspan="2"><input type="submit" value="Add Employee"></td></tr>
+</table>
+</form>
+<br>
+<a href="">View All Employees</a>
+</body>
+</html>
